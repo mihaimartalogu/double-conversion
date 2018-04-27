@@ -7,7 +7,7 @@
 #include "double-conversion/utils.h"
 
 
-using namespace double_conversion;
+using namespace double_conversionTF;
 
 
 TEST(Subtract) {

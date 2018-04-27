@@ -28,7 +28,7 @@
 #ifndef GAY_PRECISION_H_
 #define GAY_PRECISION_H_
 
-namespace double_conversion {
+namespace double_conversionTF {
 
 struct PrecomputedPrecision {
   double v;
@@ -41,6 +41,6 @@ struct PrecomputedPrecision {
 // Gay's dtoa in mode "precision".
 Vector<const PrecomputedPrecision> PrecomputedPrecisionRepresentations();
 
-}  // namespace double_conversion
+}  // namespace double_conversionTF
 
 #endif  // GAY_PRECISION_H_

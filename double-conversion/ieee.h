@@ -30,7 +30,7 @@
 
 #include <double-conversion/diy-fp.h>
 
-namespace double_conversion {
+namespace double_conversionTF {
 
 // We assume that doubles and uint64_t have the same endianness.
 static uint64_t double_to_uint64(double d) { return BitCast<uint64_t>(d); }
@@ -397,6 +397,6 @@ class Single {
   DC_DISALLOW_COPY_AND_ASSIGN(Single);
 };
 
-}  // namespace double_conversion
+}  // namespace double_conversionTF
 
 #endif  // DOUBLE_CONVERSION_DOUBLE_H_

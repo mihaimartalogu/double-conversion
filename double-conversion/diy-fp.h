@@ -30,7 +30,7 @@
 
 #include <double-conversion/utils.h>
 
-namespace double_conversion {
+namespace double_conversionTF {
 
 // This "Do It Yourself Floating Point" class implements a floating-point number
 // with a uint64 significand and an int exponent. Normalized DiyFp numbers will
@@ -113,6 +113,6 @@ class DiyFp {
   int e_;
 };
 
-}  // namespace double_conversion
+}  // namespace double_conversionTF
 
 #endif  // DOUBLE_CONVERSION_DIY_FP_H_

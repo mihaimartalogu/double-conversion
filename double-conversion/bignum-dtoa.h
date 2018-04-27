@@ -30,7 +30,7 @@
 
 #include <double-conversion/utils.h>
 
-namespace double_conversion {
+namespace double_conversionTF {
 
 enum BignumDtoaMode {
   // Return the shortest correct representation.
@@ -79,6 +79,6 @@ enum BignumDtoaMode {
 void BignumDtoa(double v, BignumDtoaMode mode, int requested_digits,
                 Vector<char> buffer, int* length, int* point);
 
-}  // namespace double_conversion
+}  // namespace double_conversionTF
 
 #endif  // DOUBLE_CONVERSION_BIGNUM_DTOA_H_

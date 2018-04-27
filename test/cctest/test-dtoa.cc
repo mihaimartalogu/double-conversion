@@ -37,7 +37,7 @@
 #include "double-conversion/ieee.h"
 
 
-using namespace double_conversion;
+using namespace double_conversionTF;
 
 
 enum DtoaMode {

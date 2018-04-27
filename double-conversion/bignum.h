@@ -30,7 +30,7 @@
 
 #include <double-conversion/utils.h>
 
-namespace double_conversion {
+namespace double_conversionTF {
 
 class Bignum {
  public:
@@ -139,6 +139,6 @@ class Bignum {
   DC_DISALLOW_COPY_AND_ASSIGN(Bignum);
 };
 
-}  // namespace double_conversion
+}  // namespace double_conversionTF
 
 #endif  // DOUBLE_CONVERSION_BIGNUM_H_

@@ -30,7 +30,7 @@
 
 #include <double-conversion/diy-fp.h>
 
-namespace double_conversion {
+namespace double_conversionTF {
 
 class PowersOfTenCache {
  public:
@@ -59,6 +59,6 @@ class PowersOfTenCache {
                                                int* found_exponent);
 };
 
-}  // namespace double_conversion
+}  // namespace double_conversionTF
 
 #endif  // DOUBLE_CONVERSION_CACHED_POWERS_H_

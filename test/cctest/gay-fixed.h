@@ -28,7 +28,7 @@
 #ifndef GAY_FIXED_H_
 #define GAY_FIXED_H_
 
-namespace double_conversion {
+namespace double_conversionTF {
 
 struct PrecomputedFixed {
   double v;
@@ -41,6 +41,6 @@ struct PrecomputedFixed {
 // Gay's dtoa in mode "fixed".
 Vector<const PrecomputedFixed> PrecomputedFixedRepresentations();
 
-}  // namespace double_conversion
+}  // namespace double_conversionTF
 
 #endif  // GAY_FIXED_H_

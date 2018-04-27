@@ -9,7 +9,7 @@
 #include "double-conversion/strtod.h"
 #include "double-conversion/utils.h"
 
-using namespace double_conversion;
+using namespace double_conversionTF;
 
 static Vector<const char> StringToVector(const char* str) {
   return Vector<const char>(str, strlen(str));

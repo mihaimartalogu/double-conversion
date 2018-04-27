@@ -9,7 +9,7 @@
 
 // DoubleToString is already tested in test-dtoa.cc.
 
-using namespace double_conversion;
+using namespace double_conversionTF;
 
 
 TEST(DoubleToShortest) {

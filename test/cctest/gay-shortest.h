@@ -28,7 +28,7 @@
 #ifndef GAY_SHORTEST_H_
 #define GAY_SHORTEST_H_
 
-namespace double_conversion {
+namespace double_conversionTF {
 
 struct PrecomputedShortest {
   double v;
@@ -38,6 +38,6 @@ struct PrecomputedShortest {
 
 Vector<const PrecomputedShortest> PrecomputedShortestRepresentations();
 
-}  // namespace double_conversion
+}  // namespace double_conversionTF
 
 #endif  // GAY_SHORTEST_H_

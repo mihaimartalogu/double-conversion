@@ -33,7 +33,7 @@
 #include "cctest.h"
 #include "double-conversion/utils.h"
 
-using namespace double_conversion;
+using namespace double_conversionTF;
 
 
 static const int kBufferSize = 1024;

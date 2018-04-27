@@ -30,7 +30,7 @@
 #include <double-conversion/fixed-dtoa.h>
 #include <double-conversion/ieee.h>
 
-namespace double_conversion {
+namespace double_conversionTF {
 
 // Represents a 128bit type. This class should be replaced by a native type on
 // platforms that support 128bit integers.
@@ -402,4 +402,4 @@ bool FastFixedDtoa(double v,
   return true;
 }
 
-}  // namespace double_conversion
+}  // namespace double_conversionTF

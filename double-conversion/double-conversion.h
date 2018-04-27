@@ -30,7 +30,7 @@
 
 #include <double-conversion/utils.h>
 
-namespace double_conversion {
+namespace double_conversionTF {
 
 class DoubleToStringConverter {
  public:
@@ -546,6 +546,6 @@ class StringToDoubleConverter {
   DC_DISALLOW_IMPLICIT_CONSTRUCTORS(StringToDoubleConverter);
 };
 
-}  // namespace double_conversion
+}  // namespace double_conversionTF
 
 #endif  // DOUBLE_CONVERSION_DOUBLE_CONVERSION_H_

@@ -32,7 +32,7 @@
 
 #include "gay-shortest-single.h"
 
-namespace double_conversion {
+namespace double_conversionTF {
 
 static const PrecomputedShortestSingle kShortestSingleTestNumbers[] = {
   {3.36736864456782105775e+26f, "33673686", 27},
@@ -10046,4 +10046,4 @@ PrecomputedShortestSingleRepresentations() {
                                                  number_elements);
 }
 
-}  // namespace double_conversion
+}  // namespace double_conversionTF

@@ -28,7 +28,7 @@
 #include <double-conversion/bignum.h>
 #include <double-conversion/utils.h>
 
-namespace double_conversion {
+namespace double_conversionTF {
 
 Bignum::Bignum()
     : bigits_buffer_(), bigits_(bigits_buffer_, kBigitCapacity), used_digits_(0), exponent_(0) {
@@ -764,4 +764,4 @@ void Bignum::SubtractTimes(const Bignum& other, int factor) {
 }
 
 
-}  // namespace double_conversion
+}  // namespace double_conversionTF
